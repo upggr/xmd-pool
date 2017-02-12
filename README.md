@@ -18,9 +18,9 @@ sudo apt-get install  redis-server  nodejs-dev nodejs-legacy npm nginx monit -y
 
 curl -sL https://raw.githubusercontent.com/upggr/xmd-seed/master/install.sh | sudo bash -    (if this fails, just wget the file and execute it after chmod +x)
 
-git clone https://github.com/upggr/xmdpool.git pool     (or fork this repo, and make changes bellow so you can auto update with git when you need to)
+git clone https://github.com/upggr/xmd-pool.git pool     (or fork this repo, and make changes bellow so you can auto update with git when you need to)
 
-./simplewallet                  (create a new wallet and record the wallet's address)
+./simplewallet                   (create a new wallet and record the wallet's address)
 
 cp /home/azureuser/xmdcoin/xmadsimplewallet.conf /etc/init/xmadsimplewallet.conf
 

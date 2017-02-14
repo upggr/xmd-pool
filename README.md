@@ -3,13 +3,14 @@ XMD POOL
 
 XMD COIN POOL
 
-Get a fresh ubuntu 14.04 machine
+Get a fresh ubuntu 14.04 machine (you can get one from digital ocean for 5$ : https://m.do.co/c/6e83df0e17c6 or use any spare ubuntu machine)
 
 Forward ports 63666 and 63667 and 3333 and 5555 and 7777 and 80 (if on azure)
 
 Login
 
-creade a suer user with username : "azureuser" (or change "asureuser" to your user in all the things bellow an the setup scripts from github... - Just create auser names azureuser, lot simpler and will work 100%)
+create a sudoer user with username : "azureuser" (If you are advanced linux user just change the "azureuser" references in all the files bellow, but i recommend you just create the "azureuser" user if you want this up in the next 5 minutes!)
+
 sudo -s
 
 apt-get update

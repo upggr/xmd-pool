@@ -11,6 +11,8 @@ Login
 
 create a sudoer user with username : "azureuser" (If you are advanced linux user just change the "azureuser" references in all the files bellow, but i recommend you just create the "azureuser" user if you want this up in the next 5 minutes!)
 
+Login as this user 
+
 sudo -s
 
 apt-get update

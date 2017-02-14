@@ -11,7 +11,7 @@ Login
 
 create a sudoer user with username : "azureuser" (If you are advanced linux user just change the "azureuser" references in all the files bellow, but i recommend you just create the "azureuser" user if you want this up in the next 5 minutes!)
 
-Login as this user 
+Login as this user
 
 sudo -s
 
@@ -21,9 +21,9 @@ sudo apt-get install  redis-server  nodejs-dev nodejs-legacy npm nginx monit -y
 
 curl -sL https://raw.githubusercontent.com/upggr/xmd-seed/master/install.sh | sudo bash -    (if this fails, just wget the file and execute it after chmod +x)
 
-git clone https://github.com/upggr/xmd-pool.git pool     (or fork this repo, and make changes bellow so you can auto update with git when you need to)
+git clone https://github.com/upggr/xmd-pool.git pool
 
-./simplewallet                   (create a new wallet and record the wallet's address)
+./simplewallet                   (create a new wallet (G) and record the wallet's address)
 
 cp /home/azureuser/xmdcoin/xmadsimplewallet.conf /etc/init/xmadsimplewallet.conf
 

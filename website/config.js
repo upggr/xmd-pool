@@ -10,8 +10,8 @@ var cryptonatorWidget = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR"];
 
 var easyminerDownload = "http://xmdcoin.com/wp-content/uploads/2017/02/64bit.zip";
 
-var blockchainExplorer = "http://chainradar.com/{symbol}/block/{id}";
+var blockchainExplorer = "http://xmd.mypool.name/?hash={id}#blockchain_block";
 
-var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
+var transactionExplorer = "http://xmd.mypool.name/?hash={id}#blockchain_transaction";
 
 var themeCss = "themes/default-theme.css";

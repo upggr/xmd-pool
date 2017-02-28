@@ -35,7 +35,7 @@
             },
             {
                 "port": 7777,
-                "difficulty": 20000,
+                "difficulty": 30000,
                 "desc": "GPU mining/CPU farm"
             },
             {
